@@ -1,69 +1,69 @@
-Excel Job Market Analysis
+# Excel Job Market Analysis
 
 An Excel-based data analysis project focusing on job market trends, salary insights, and skill demand. This project demonstrates practical data analysis and visualization skills using Excel.
 
-📊 Excel Salary Dashboard
+## 📊 Excel Salary Dashboard
 
 ![image alt](https://github.com/SabaKhitarishvili/Excel-job-market-analysis/blob/e0f75b8de6195964602acc86f576d894f19ea4ee/Screenshot%202025-03-30%20at%2018.23.59.png)
 
 
-Introduction
+## 🌟 Overview
 
-This salary dashboard project is my customized analysis of job market trends, designed to help job seekers explore salary variations across different roles, locations, and job types. The dashboard provides key insights into how job titles, regions, and required skills influence salaries, aiding informed career decisions.
+This project presents a Salary Dashboard designed to help job seekers and professionals understand salary trends across different roles, locations, and industries. By leveraging Excel's powerful data analysis tools, I transformed raw job market data into an insightful, easy-to-navigate dashboard.
 
-Dashboard File
+📂 Final Dashboard File: Excel_Job_Market_Analysis.xlsx
 
-My final dashboard file: Excel_Job_Market_Analysis.xlsx
 
-🛠 Excel Skills Highlighted
+## 🔥 Key Excel Skills Used
 
-In creating this project, I applied several advanced Excel skills, including:
+📊 Data Visualization – Clear, insightful charts and graphs.
 
-📊 Data Visualization: Charts and graphs for clear and impactful insights.
+🧮 Advanced Formulas – Multi-condition filtering, aggregations, and calculations.
 
-🧮 Advanced Formulas: Multi-condition filtering, aggregations, and dynamic calculations.
+✔️ Data Validation – Ensuring clean and accurate data input.
 
-✔️ Data Validation: Ensuring accuracy and consistency in data inputs.
+🔍 Power Query & Power Pivot – Data extraction, transformation, and modeling.
 
-🔍 Power Query & Power Pivot: Data extraction, transformation, and modeling.
 
-📂 About the Dataset
+## 📂 Dataset Information
 
-The dataset consists of real-world job market data from 2023 and includes:
+This dataset contains real-world job market data from 2023, including:
 
-💼 Job Titles
+💼 Job Titles (e.g., Data Scientist, Business Analyst, Data Engineer)
 
-💰 Salaries
+💰 Salaries (Annual salary data across different roles)
 
-🌍 Locations
+🌍 Locations (Country-wise salary distribution)
 
-🛠️ Key Skills
+🛠️ Key Skills (Top skills required for data jobs)
 
-The original dataset was modified and refined to enhance analysis and visualization within this dashboard.
+The original dataset was refined and customized to enhance analysis and visualization.
 
-📊 Dashboard Components
 
-📈 Job Salaries by Role (Bar Chart)
 
-Objective: Show salary variations across job roles.
+## 📊 Dashboard Breakdown
 
-Implementation: A horizontal bar chart sorted by descending salaries for easy comparison.
 
-Insights: Senior-level roles such as Data Engineers and Data Scientists command significantly higher salaries compared to Analyst roles.
+1️⃣ Job Salaries by Role (Bar Chart)
 
-🗺️ Median Salaries by Country (Map Chart)
+Objective: Compare salaries across job roles.
 
-Objective: Visualize global salary trends.
+Implementation: Horizontal bar chart sorted by salary (descending) for clarity.
 
-Implementation: A map chart with color gradients indicating salary variations across regions.
+Insights: Higher salaries are observed in senior roles like Data Engineers and Machine Learning Experts, while Analyst roles generally pay less.
 
-Insights: Clear disparities exist between regions, with the US and Western Europe offering higher median salaries.
+2️⃣ Median Salaries by Country (Map Chart)
 
-🧮 Advanced Formulas
+Objective: Show salary differences across regions.
 
-Median Salary Calculation by Role
+Implementation: A world map with color-coded salary distributions.
 
-Formula Example:
+Insights: The US and Western Europe have significantly higher salaries compared to other regions.
+
+
+## 🏆 Advanced Excel Techniques
+
+📌 Median Salary Calculation by Role
 
 =MEDIAN(
 IF(
@@ -75,46 +75,45 @@ IF(
 )
 )
 
-Purpose: Calculate median salary based on multiple criteria (role, location, job type).
+✅ Purpose: Calculates median salary based on role, location, and job type.
+✅ Dynamic Filtering: Ensures only relevant data is considered.
 
-Dynamic Filtering: Ensures relevant data is used for accurate results.
-
-Unique Job Types List
-
-Formula Example:
+📌 Unique Job Types List
 
 =FILTER(J2#, (NOT(ISNUMBER(SEARCH("and", J2#)) + ISNUMBER(SEARCH(",", J2#)))) * (J2#<>""))
 
-Purpose: Generate a clean list of unique job types for filtering.
+✅ Purpose: Creates a clean, unique job type list for filtering.
+✅ Application: Used in dropdowns for easy selection and analysis.
 
-Application: Used in dropdowns for user input validation.
 
-✅ Data Validation
+## ✅ Data Validation for Accuracy
 
-To enhance usability, data validation rules were implemented for:
+To maintain data integrity, data validation rules were applied to
 
-Job Titles
+Job Titles (Standardized selection to avoid errors)
 
-Countries
+![image alt](https://github.com/SabaKhitarishvili/Excel-job-market-analysis/blob/0efe07787edbb0d41db6bfb28050eed07d3fbd68/Screenshot%202025-03-30%20at%2018.43.50.png)
 
-Job Types
+Countries (Ensuring correct geographical classification)
 
-This ensures consistent input and eliminates errors caused by invalid entries.
+![image alt](https://github.com/SabaKhitarishvili/Excel-job-market-analysis/blob/0efe07787edbb0d41db6bfb28050eed07d3fbd68/Screenshot%202025-03-30%20at%2018.44.25.png)
 
-📢 Acknowledgment
+Job Types (Dropdown-based filtering for structured analysis)
 
-This project was inspired by various Excel learning resources and serves as a practical application of data analysis techniques.
+![image alt](https://github.com/SabaKhitarishvili/Excel-job-market-analysis/blob/0efe07787edbb0d41db6bfb28050eed07d3fbd68/Screenshot%202025-03-30%20at%2018.44.36.png)
 
-💡 Insights and Takeaways
+## 💡 Insights & Key Takeaways
 
-Senior-level roles and specialized positions tend to command higher salaries.
+📌 Senior roles and specialized positions generally offer higher salaries.
+📌 Location plays a major role in salary variations, with notable differences between regions.
+📌 Data validation & advanced formulas make the dashboard more interactive and user-friendly.
 
-Geographic location significantly influences salary ranges, with notable disparities between countries.
 
-Data validation and advanced formulas make the dashboard user-friendly and efficient for exploring the dataset.
+## 🚀 Personal Reflection
 
-🔍 Personal Reflection
+This project enhanced my Excel proficiency and allowed me to apply data analytics techniques to real-world job market trends. It highlights my ability to:
+✅ Process and clean large datasets.
+✅ Build meaningful visualizations.
+✅ Extract insights for better decision-making.
 
-This project allowed me to refine my Excel skills while exploring real-world job market trends. It showcases my ability to analyze data, extract meaningful insights, and present them effectively through visualization.
-
-Feel free to check out the project and share your feedback. Connect with me on LinkedIn to discuss this project or any collaboration opportunities!
+📢 Feel free to explore the project and share your feedback! Connect with me on LinkedIn if you'd like to discuss this project or collaborate on similar work. 😊
