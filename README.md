@@ -4,6 +4,9 @@ An Excel-based data analysis project focusing on job market trends, salary insig
 
 📊 Excel Salary Dashboard
 
+![image alt](https://github.com/SabaKhitarishvili/Excel-job-market-analysis/blob/e0f75b8de6195964602acc86f576d894f19ea4ee/Screenshot%202025-03-30%20at%2018.23.59.png)
+
+
 Introduction
 
 This salary dashboard project is my customized analysis of job market trends, designed to help job seekers explore salary variations across different roles, locations, and job types. The dashboard provides key insights into how job titles, regions, and required skills influence salaries, aiding informed career decisions.
